@@ -6,5 +6,4 @@ int main(){
     z=x+y;
     printf("Sum: %d",z);
     return 0;
-
 }
