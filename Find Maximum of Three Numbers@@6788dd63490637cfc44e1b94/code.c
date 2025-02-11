@@ -12,10 +12,10 @@ int main(){
         if (y>x)
          big=y;
         else
-         big=z;
+         big=z;}
     else
      big=z;
-    }
+    
   printf("%d",big);
   return 0;
 }
