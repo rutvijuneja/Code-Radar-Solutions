@@ -6,7 +6,7 @@ int main(){
     scanf("%c",&chr);
     if(isalpha(chr)){
         int isvowel=0;
-        for (i=0,i<10,i++){
+        for (i=0;i<10;i++){
             if (chr==vowels[i])
              isvowel=1;
              break;
