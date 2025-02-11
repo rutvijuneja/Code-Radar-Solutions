@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <ctype.h>
 int main(){
     char chr;
     scanf("%c",&chr);
-    if (chr.isupper())
+    if (isupper(chr))
      printf("Uppercase");
     else
     printf("Lowercase");
