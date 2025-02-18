@@ -13,7 +13,8 @@ int main(){
          big=y;
         else
          big=z;}
-   
+   else 
+    big=z;
     
   printf("%d",big);
   return 0;
