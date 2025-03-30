@@ -8,16 +8,16 @@ int main(){
         if(j==0){
             if(arr[j]>arr[j+1])
                peak=arr[j];
-               break;
+            
         }
         if(j==n-1){
             if (arr[j]>arr[j-1])
                peak=arr[j];
-               break;
+          
         }
         if(arr[j]>arr[j-1]&&arr[j]>arr[j+1])
           peak=arr[j];
-          break;
+         
           
     }
     if(peak==-1)
