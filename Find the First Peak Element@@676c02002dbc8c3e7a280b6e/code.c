@@ -17,6 +17,7 @@ int main(){
         }
         if(arr[j]>arr[j-1]&&arr[j]>arr[j+1])
           peak=arr[j];
+          break;
         
          
           
