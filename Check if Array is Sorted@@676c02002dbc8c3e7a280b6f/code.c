@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int i,j,iswap=0,temp,n,arr[];
+    int i,j,iswap=0,temp,n,arr[50];
     scanf("%d",&n);
     printf("\n");
     for(i=0;i<n;i++)
