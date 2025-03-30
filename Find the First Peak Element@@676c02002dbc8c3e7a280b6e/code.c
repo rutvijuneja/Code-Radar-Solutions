@@ -20,9 +20,6 @@ int main(){
          
           
     }
-    if(peak==-1)
-     printf("no peak");
-    else
      printf("%d",peak);
     return 0;
 }
