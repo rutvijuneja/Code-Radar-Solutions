@@ -14,8 +14,10 @@ int main(){
                 arr[j+1]=temp;
                 iswap++;
             }
-
-        }
+                }
+                if(iswap==0){
+                    break;
+                }
     }
     if(iswap==0)
        printf("Sorted");
