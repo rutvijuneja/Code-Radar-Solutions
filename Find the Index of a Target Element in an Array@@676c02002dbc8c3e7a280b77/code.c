@@ -10,7 +10,7 @@ int linearsearch(int arr[],int n,int item){
 int main(){
     int i,n,item,index,arr[50];
      scanf("%d",&n);
-    for(i=o;i<n;i++)
+    for(i=0;i<n;i++)
      scanf("%d ",&arr[i]);
     scanf("%d",&item);
     index=linearsearch(arr,n,item);
