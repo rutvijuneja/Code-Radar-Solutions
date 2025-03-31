@@ -2,8 +2,10 @@
 int main(){
     int i,j,n,arr[50],temp,prod;
     scanf("%d",&n);
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++){
      scanf("%d",&arr[i]);
+     if(arr[i]<0)
+      arr[i]=-arr[i];}
     i=0;
     for(i=0;i<n-1;i++){
         for(j=0;j<n-1-i;j++){
