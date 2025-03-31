@@ -15,7 +15,11 @@ int main(){
         }
     }
     peak=arr[n-2];
-    printf("%d",peak);
+    if(peak==-1)
+     printf("%d",peak);
+    else
+     printf("%d",peak);
+     return 0;
     
     
 }
