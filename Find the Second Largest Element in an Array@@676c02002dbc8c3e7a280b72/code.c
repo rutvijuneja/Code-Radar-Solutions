@@ -5,6 +5,9 @@ int main(){
     for(i=0;i<n;i++)
       scanf("%d ",&arr[i]);
     i=0;
+    if(n==0||n==1)
+     peak=-1;
+    else{
     for(i=0;i<n-1;i++){
         for(j=0;j<n-1-i;j++){
             if(arr[j]>arr[j+1]){
@@ -15,6 +18,7 @@ int main(){
         }
     }
     peak=arr[n-2];
+    }
     if(peak==-1)
      printf("%d",peak);
     else
