@@ -1,29 +1,32 @@
 #include<stdio.h>
 int main(){
-    int i,j,arr[50],n,temp,peak=-1;
+    int i,j,arr[50],n,largest,secondlargest=-1;
     scanf("%d",&n);
     for(i=0;i<n;i++)
       scanf("%d ",&arr[i]);
     i=0;
+    largest=arr[0];
     if(n==0||n==1)
-     peak=-1;
+     secondlargest=-1;
     else{
-    for(i=0;i<n-1;i++){
-        for(j=0;j<n-1-i;j++){
-            if(arr[j]>arr[j+1]){
-                temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
-            }
-        }
+      for(i=0;i<n;i++){
+        if(arr[i]>largest){
+            secondlargest=largest;
+            largest=arr[i];
+
+           }
+        if(arr[i]<largest&&arr[i]>secondlargest)
+          secondlargest=arr[i];
+      }
+
     }
-    peak=arr[n-2];
-    }
-    if(peak==-1)
-     printf("%d",peak);
+   
+    if(secondlargest==-1)
+     printf("%d",secondlargest);
     else
-     printf("%d",peak);
-     return 0;
+     printf("%d",secondlargest);
+     
+ return 0;
     
     
 }
