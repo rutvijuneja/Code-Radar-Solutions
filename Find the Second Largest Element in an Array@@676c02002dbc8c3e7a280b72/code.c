@@ -6,10 +6,10 @@ int main(){
       scanf("%d ",&arr[i]);
     i=0;
     largest=arr[0];
-    if(n==0||n==1)
+    if(n<2)
      secondlargest=-1;
     else{
-      for(i=0;i<n;i++){
+      for(i=1;i<n;i++){
         if(arr[i]>largest){
             secondlargest=largest;
             largest=arr[i];
