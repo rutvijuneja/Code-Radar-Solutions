@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 int linearsearch(int arr[],int n,int item){
     int i=0;
     for(i=0;i<n;i++){
