@@ -13,7 +13,7 @@ int main(){
     i=0;
     largest=arr[0];
      
-   else{
+   
       for(i=1;i<n;i++){
         if(arr[i]>largest){
             secondlargest=largest;
@@ -23,12 +23,6 @@ int main(){
         if(arr[i]<largest&&arr[i]>secondlargest)
           secondlargest=arr[i];
       }
-
-   }
-   
-    if(secondlargest==-1)
-     printf("%d",secondlargest);
-    else
      printf("%d",secondlargest);
      
  return 0;
