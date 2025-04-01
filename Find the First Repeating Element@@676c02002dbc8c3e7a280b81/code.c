@@ -12,6 +12,8 @@ int main(){
                 break;
             }
         }
+        if(index!=-1)
+        break;
     }
     if(index!=-1)
       printf("%d",arr[index]);
