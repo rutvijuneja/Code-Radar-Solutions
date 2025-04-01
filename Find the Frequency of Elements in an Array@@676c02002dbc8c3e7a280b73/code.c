@@ -8,7 +8,7 @@ int main(){
 }
    for(i=0;i<size<i++){
     count=1;
-    for(j=i+1;j<size;j++){
+    for(j=i+1;j<n;j++){
         if(arr[i]==arr[j]){
             count++;
             freq[j]=0;
