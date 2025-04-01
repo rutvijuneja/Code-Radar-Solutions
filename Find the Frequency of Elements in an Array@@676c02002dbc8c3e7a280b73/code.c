@@ -20,7 +20,8 @@ int main(){
    }
    for(i=0;i<n;i++){
     if(b[i]!=0)
-     printf("\n%d %d",arr[i],b[i]);
+     printf("%d %d\n",arr[i],b[i]);
+
    }
    return 0;
 }
