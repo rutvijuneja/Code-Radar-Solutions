@@ -11,15 +11,15 @@ int main(){
     for(j=i+1;j<n;j++){
         if(arr[i]==arr[j]){
             count++;
-            freq[j]=0;
+            b[j]=0;
         }
 
     }
-    if(freq[i]!=0)
-       freq[i]=count;
+    if(b[i]!=0)
+       b[i]=count;
    }
    for(i=0;i<n;i++){
-    if(freq[i]!=0)
+    if(b[i]!=0)
      printf("%d %d",arr[i],arr[j]);
    }
    return 0;
