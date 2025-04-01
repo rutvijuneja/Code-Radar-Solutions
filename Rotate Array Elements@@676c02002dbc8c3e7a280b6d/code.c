@@ -4,6 +4,7 @@ int main(){
     scanf("%d",&n);
     for(i=0;i<n;i++)
       scanf("%d",&arr[i]);
+    i=0;
     scanf("%d",&k);
     for(j=0;j<k;j++){
         temp=arr[n-1];
@@ -12,5 +13,8 @@ int main(){
         }
         arr[i]=temp;
     }
+    i=0;
+    for(i=0;i<n;i++)
+      printf("%d\n",arr[i]);
     return 0;
 }
