@@ -20,7 +20,7 @@ int main(){
             largest=arr[i];
 
            }
-        if(arr[i]<largest&&arr[i]>secondlargest)
+        else if(arr[i]<largest&&arr[i]>secondlargest)
           secondlargest=arr[i];
       }
      printf("%d",secondlargest);
